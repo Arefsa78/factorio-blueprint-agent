@@ -1,0 +1,42 @@
+{
+  "name": "ai-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "bin": {
+    "fmeow": "dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.1",
+    "@langchain/core": "^0.3.55",
+    "@langchain/langgraph": "^0.2.72",
+    "@langchain/mcp-adapters": "^0.4.5",
+    "@langchain/openai": "^0.5.10",
+    "@modelcontextprotocol/sdk": "^1.11.2",
+    "@types/express": "^5.0.1",
+    "better-sqlite3": "^11.10.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.5.0",
+    "inquirer": "^12.6.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "typescript-logging": "^2.2.0",
+    "typescript-logging-category-style": "^2.2.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/commander": "^2.12.0",
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
